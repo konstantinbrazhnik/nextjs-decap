@@ -1,0 +1,17 @@
+name = "nextjs-decap-starter"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next/assets"
+
+[[kv_namespaces]]
+binding = "NEXT_CACHE_WORKERS_KV"
+id = "NEXT_CACHE_WORKERS_KV"
+
+# Function for OAuth
+[[bucket]]
+binding = "ASSETS"
+
+# Environment variables
+[vars]
+# GITHUB_CLIENT_ID = "" # Set in Cloudflare Dashboard
+# GITHUB_CLIENT_SECRET = "" # Set in Cloudflare Dashboard
